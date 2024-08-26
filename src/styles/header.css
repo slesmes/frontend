@@ -1,10 +1,34 @@
 .header{
-    width: 98%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 50px;
-    background-color: #2e5adf;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blue;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn.cartelera {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdowns {
+    display: flex;
+    gap: 10px;
+}
+
+.dropdown {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 }

@@ -6,7 +6,7 @@ main{
     justify-content: space-between;
     min-height: 80dvh;
 }
-
+#-------------------------------------------------------
 .main .aside{
     display: flex;
     justify-content: center;
