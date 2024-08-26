@@ -1,4 +1,4 @@
-main{
+main {
     width: 98%;
     max-width: 1200px;
     margin: 20px auto;
@@ -6,17 +6,36 @@ main{
     justify-content: space-between;
     min-height: 80dvh;
 }
-#-------------------------------------------------------
-.main .aside{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-radius: 10px;
-    width: 25%;
-    background: #2e5adf;
+
+/* ---------------------------------------------------------- */
+.main .aside {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
 }
 
-.main .principal{
+.schedule-section,
+.date-section {
+    margin-bottom: 20px;
+}
+
+.time-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-selection label {
+    margin-right: 10px;
+}
+
+.date-display {
+    display: flex;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------- */
+.main .principal {
     display: flex;
     justify-content: center;
     align-items: center;
