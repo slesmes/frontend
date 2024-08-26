@@ -1,6 +1,7 @@
 import '../styles/principal.css'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import diablo from'../img/ElEspejodelDiabloPoster.webp'
 export default function Principal() {
 
     return (
@@ -27,7 +28,15 @@ export default function Principal() {
                 </div>
             </aside>
             <div className="principal">
-                this is the principal content
+                <div className="movie-card">
+                    <img src={diablo}  alt="El espejo del diablo" className="movie-poster" />
+                    <div className="movie-info">
+                        <h2>El espejo del diablo</h2>
+                        <p>A15 | 91 min</p>
+                        <p>DIG DOB 21:45</p>
+                        <button>REGRESAR AL INICIO</button>
+                    </div>
+                </div>
             </div>
         </main>
     )
